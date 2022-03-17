@@ -35,7 +35,7 @@ We represent a fleet by means of a list
     [ship1, ship2, ....]
 of ships. Note that during the game,  a fleet will contain 10 ships (which may be intact, hit, or sunk), however, when the computer places the ships randomly, it is convenient to start with an empty list and iteratively expand it by adding ships. 
 
-## Required Functions 
+## Functions 
 
  - `is_sunk(ship)` -- returns Boolean value, which is `True` if `ship` is sunk and `False` otherwise
  - `ship_type(ship)` -- returns one of the strings `"battleship"`, `"cruiser"`, `"destroyer"`, or `"submarine"` identifying the type of `ship`
@@ -51,7 +51,7 @@ of ships. Note that during the game,  a fleet will contain 10 ships (which may b
 
 -  `ship`, `row`, `column`, `fleet`, `fleet1`, `horizontal` must be of the corresponding data types (see *Data Structures*)  
 
-## Extension
+## Visualisation
 In addition, we can implement the visualisation of the game. 
 
  - The new state of the ocean and fleet are presented to the human player each time after he/she shoots
